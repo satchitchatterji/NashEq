@@ -10,10 +10,10 @@ The code for this exercise was written in Python 3.10.7 and only requires NumPy 
 
 ## Representation
 The utility matrix is represented as a single string, with integer payoff values delimited by commas: `a,b,c,d,e,f,g,h` . The first four values are the payoffs for row player, and the next four are the payoffs for the column player. The values in this string should correspond to the following payoff matrix:
-\begin{center}
-\nfgame{T B L R $a$ $b$ $c$  $d$
-                $e$ $f$ $g$ $h$}
-\end{center}
+
+<p align="center">
+<img src=./imgs/input_rep.png alt="Input representation for a 2x2 payoff matrix" width=150)
+</p>
 
 **Usage:** Thus, the code should be run by calling in the terminal:
 
